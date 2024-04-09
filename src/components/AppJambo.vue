@@ -1,12 +1,12 @@
 <template>
- <img src="/images.png" alt="images">
+ <img :src="images" alt="images">
 </template>
 
 <script>
     export default {
-        dataa(){
+        data(){
             return{
-        
+                images:'/images.png'
             }
         }
     }
