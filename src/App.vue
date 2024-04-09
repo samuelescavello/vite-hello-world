@@ -1,14 +1,16 @@
 <template>
-  <AppTitle/>
+  <AppTitle />
+  <AppJambo />
 </template>
 
 <script>
-import AppTitle from './components/AppTitle.vue'
+import AppTitle from './components/AppTitle.vue';
+import AppJambo from './components/AppJambo.vue';
   export default {
     name:'App',
     components:{
-      AppTitle
-    }
+      AppTitle,AppJambo
+    },
     data(){
       return{
         
